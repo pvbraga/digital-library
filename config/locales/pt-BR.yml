@@ -15,6 +15,7 @@ pt-BR:
         collection: coleção
         code: código
         patron: locador
+        updated_at: ultima atualização 
     errors:
       messages:
         record_invalid: 'A validação falhou: %{errors}'
