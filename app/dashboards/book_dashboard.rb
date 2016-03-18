@@ -47,7 +47,6 @@ class BookDashboard < Administrate::BaseDashboard
     :collection,
     :code,
     :patron,
-    :created_at,
     :updated_at,
   ]
 
