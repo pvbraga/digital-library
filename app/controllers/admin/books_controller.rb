@@ -15,5 +15,10 @@ module Admin
 
     # See https://administrate-docs.herokuapp.com/customizing_controller_actions
     # for more information
+
+    def import
+        Book.import(params[:file])
+        redirect_to admin_root_url, notice: "Livros importados."
+    end
   end
 end

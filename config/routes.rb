@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
 
   namespace :admin do
-    resources :books
-
+    resources :books do
+      collection { post :import }
+    end
     root to: "books#index"
   end
 
